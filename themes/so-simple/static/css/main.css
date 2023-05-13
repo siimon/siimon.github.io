@@ -1,0 +1,25 @@
+body {
+	background-color: #000;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+}
+
+#content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+p {
+	width: 350pt;
+	text-align: left;
+}
+
+a:visited, a:link {
+	color: #FFC806;
+}
+
+a:hover {
+	color: hotpink;
+}
