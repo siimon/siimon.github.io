@@ -1,3 +1,17 @@
 {{ define "main" }}
 <p> {{ .Content }} </p>
+
+{{ if gt (len .Site.RegularPages) 0 }}
+<hr></hr>
+<h2>Posts</h2>
+<ul>
+	{{ range .Site.RegularPages }}
+	<li>
+		{{ time.Format "2006-01-02" .PublishDate }} <a href="{{ .Permalink }}">{{ .Title }}</a>
+	</li>
+	{{ end }}
+</ul>
+
+{{ end }}
+
 {{ end }}

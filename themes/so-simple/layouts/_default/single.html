@@ -2,5 +2,8 @@
 
 <div>
 	<h1>{{ .Title }}</h1>
+	<span>{{ time.Format "2006-01-02" .Date }}</span>
+
+	{{ .Content }}
 </div>
 {{ end }}

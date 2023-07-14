@@ -5,21 +5,21 @@ body {
 }
 
 #content {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-}
-
-p {
-	width: 350pt;
-	text-align: left;
+	margin: 0 auto;
+	width: 450px;
 }
 
 a:visited, a:link {
 	color: #FFC806;
+	text-decoration: none;
 }
 
 a:hover {
 	color: hotpink;
+}
+
+ul {
+	list-style-type: none;
+	text-align: left;
+	padding-left: 0;
 }
