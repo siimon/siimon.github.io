@@ -4,6 +4,11 @@ body {
 	font-family: 'Poppins', sans-serif;
 }
 
+p {
+	margin-block-start: 2em;
+	margin-block-end: 2em;
+}
+
 #content {
 	margin: 0 auto;
 	width: 450px;
