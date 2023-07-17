@@ -11,7 +11,7 @@ p {
 
 #content {
 	margin: 0 auto;
-	width: 450px;
+	width: 500px;
 }
 
 @media only screen and (max-width: 500px) {
